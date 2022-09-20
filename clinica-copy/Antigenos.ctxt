@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Antigenos
+comment0.text=\r\n\ Abstract\ class\ Antigenos\ -\ \r\n\ clase\ abstracta,\ representa\ el\ comun\ de\ las\ pruebas\r\n\ de\ antigenos,\ las\ cuales\ se\ pueden\ hacer\ diariamente.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=int\ get_lapsoDias()
+comment1.text=\r\n\ implementa\ el\ metodo\ abstracto\ de\ la\ clase\ padre.\r\n\ @return\ lapsoDias\r\n
+numComments=2

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Tecnico
+comment0.text=\r\n\ \ \r\n\ \ Funciones\ del\ tecnico\:\r\n\ \r\n\ -Visualizacion\ de\ datos\ de\ los\ pacientes\ asignados\r\n\ \r\n\ -Registro\ y\ actualizacion\ de\ pruebas\ diagnosticas\ y\ vacunacion\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n\ \r\n\r\n\ \r\n
+comment1.params=DNI\ c
+comment1.target=Tecnico(int,\ Clinica)
+comment1.text=\r\n\ constructor\ de\ la\ clase\ tecnico\r\n\ @param\ DNI\ el\ dni\ identificador\ del\ tecnico\r\n\ @param\ c\ clinica,\ la\ clinica\ donde\ va\ a\ trabajar\ el\ tecnico,\ necesario\ para\ las\ alertas\r\n
+comment2.params=c\ DNI\ nombre\ apellido1\ apellido2\ edad
+comment2.target=Tecnico(Clinica,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.text=\r\n\ constructor\ completo\ para\ las\ funciones\ de\ debug\ y\ pruebas.\ No\ necesario\ en\ el\ programa\ final\r\n
+comment3.params=x
+comment3.target=void\ add_Tratamiento(Tratamiento)
+comment3.text=\r\n\ metodo\ sobreescrito\ para\ agregar\ tratamientos\ a\ la\ lista\ con\ filtro.\r\n\ El\ tecnico\ no\ necesita\r\n\ aceptar\ vacunas,\ por\ que\ lo\ que\ el\ primer\ condicional\ funciona\ de\ filtro\r\n
+comment4.params=x
+comment4.target=void\ aceptar_Tratamiento(Tratamiento)
+comment4.text=\r\n\ metodo\ sobreescrito\ del\ metodo\ abstracto\ de\ la\ clase\ trabajador.\r\n\ Este\ metodo\ comprueba\ que\ se\ pueda\ aceptar\ el\ tratamiento,\ por\ tipo\r\n\ y\ por\ capacidad\r\n
+comment5.params=
+comment5.target=void\ TrabajarPruebas()
+comment5.text=\r\n\ Pone\ al\ tecnico\ a\ trabajar,\ procesa\ todas\ las\ pruebas\ de\ a\ una.\r\n
+comment6.params=
+comment6.target=boolean\ planSemanal_espacioLibre()
+comment6.text=\r\n\ comprueba\ que\ el\ plan\ semanal\ tenga\ espacio\ para\ aceptar\ trabajos\ con\ respecto\ a\ los\ limites\ correspondientes\ a\r\n\ la\ subclase\r\n
+comment7.params=x
+comment7.target=boolean\ planSemanal_espacioLibre(int)
+comment7.text=\r\n\ comprueba\ que\ el\ plan\ semanal\ tenga\ espacio\ para\ aceptar\ trabajos\ con\ respecto\ a\ los\ limites\ correspondientes\ a\r\n\ un\ parametro\ dado\r\n\ @param\ x\ los\ tratamientos\ que\ puede\ aceptar\ como\ limite\r\n
+numComments=8

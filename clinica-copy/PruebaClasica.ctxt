@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PruebaClasica
+comment0.text=\r\n\ Esta\ clase\ solo\ diferencia\ entre\ tipos\ de\ pruebas\ de\ antigenos\r\n\ y\ no\ contiene\ ninguna\ diferencia\ con\ respecto\ a\ la\ clase\ padre\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=PruebaClasica()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PruebaClasica\r\n
+numComments=2

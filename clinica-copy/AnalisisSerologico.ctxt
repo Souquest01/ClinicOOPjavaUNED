@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AnalisisSerologico
+comment0.text=\r\n\ Analisis\ serologico\ hereda\ de\ prueba\ aunque\ es\ un\ poco\ mas\ especial\ que\ el\r\n\ resto,\ esta\ prueba\ no\ determina\ si\ se\ tiene\ el\ virus,\ si\ no\ si\ se\ hayan\r\n\ presentes\ en\ el\ organismo\ los\ anticuerpos\ para\ este.\r\n\ Por\ lo\ tanto\ el\ resultado\ determina\ en\ este\ caso\ si\ se\ esta\ "inmunizado".\r\n\ Hay\ que\ prestar\ especial\ atencion\ para\ no\ mezlarlo\ con\ los\ otros.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=AnalisisSerologico()
+comment1.text=\r\n\ constructor\ del\ analisis\ serologico.\ el\ constructor\ llama\ a\ super()\ automaticamente.\r\n
+comment2.params=tecnico
+comment2.target=void\ analizar_prueba(Tecnico)
+comment2.text=\r\n\ metodo\ que\ sobreescribe\ al\ metodo\ de\ la\ clase\ padre\ analizar_prueba.\r\n\ La\ clase\ difiere\ del\ resto\ y\ por\ lo\ tanto\ necesita\ un\ trato\ especial.\r\n\ @param\ el\ tecnico\ que\ va\ a\ analizar\ la\ prueba\r\n
+comment3.params=
+comment3.target=int\ get_lapsoDias()
+comment3.text=\r\n\ metodo\ accesor\ del\ tiempo\ en\ dias\ entre\ pruebas\ de\ tipo\ serologico.\r\n\ @return\ estatico.SEROLOGICO\r\n
+numComments=4

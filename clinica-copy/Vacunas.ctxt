@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Vacunas
+comment0.text=\r\n\ Abstract\ class\ Vacunas\ -\ Define\ unos\ patrones\ genericos\ para\ las\ 3\ vacunas\r\n\ y\ los\ metodos\ aplicables\ como\ interfaz.\ Metodos\ pueden\ estar\ sobrecargados\ en\ las\ clases\r\n\ hijas\ para\ adaptarse\ a\ las\ necesidades\ propias\ de\ las\ subclases.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=Vacunas()
+comment1.text=\r\n\ constructor\ de\ la\ clase\ Vacunas,\ la\ clase\ es\ abstracta\r\n
+comment2.params=
+comment2.target=boolean\ usar()
+comment2.text=\r\n\ representa\ la\ accion\ de\ aplicar\ una\ dosis\ de\ la\ vacuna\r\n\ @return\ boolean\ si\ la\ vacuna\ tenia\ dosis\ suficientes\ devuelve\ true\r\n
+comment3.params=
+comment3.target=void\ vaciar()
+comment3.text=\r\n\ metodo\ mutador\ que\ pone\ a\ 0\ la\ cantidad\ de\ dosis\ restantes\r\n\ en\ la\ vacuna\r\n
+comment4.params=
+comment4.target=int\ get_dosisRestantes()
+comment4.text=\r\n\ metodo\ selector\ de\ dosis\ restantes\ de\ la\ vacuna\r\n
+comment5.params=
+comment5.target=boolean\ cuota_tiempo()
+comment5.text=\r\n\ Comprueba,\ accediendo\ a\ el\ metodo\ de\ su\ clase\ padre\ si\ se\ podria\r\n\ realizar\ una\ segunda\ vacuna\ en\ el\ dia\ de\ la\ comprobacion.\r\n\ \r\n
+comment6.params=
+comment6.target=int\ get_lapsoDias()
+comment6.text=\r\n\ devuelve\ el\ tiempo\ necesario\ de\ espera\ entre\ vacunas\r\n\ @return\ dias\r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Administrador
+comment0.text=\r\n\ Esta\ clase\ representa\ al\ administrador\ de\ la\ clinica,\r\n\ las\ funciones\ del\ administrador\ estan\ declaradas\ en\ la\r\n\ clinica\ y\ esta\ comprueba\ que\ el\ usuario\ es\ un\ administrador\r\n\ para\ permitir\ la\ manipulacion\ de\ esta.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n\ \r\n\ Administrador;\ funciones\:\r\n\ \r\n\ -Gestion\ de\ usuarios\:\ altas,\ bajas\ y\ modificaciones\ de\ todas\ las\ personas\r\n\ \r\n\ -Asignacion\ de\ pruebas\ diagnosticas\ a\ enfermeros\ y\ tecnicos\r\n\ \ y\ asignacion\ de\ vacunaciones\ a\ enfermeros\r\n\ \ \r\n\ -Visualizacion\ de\ datos\ de\ todas\ las\ personas\ registradas\ en\ el\ sistema\r\n\ \r\n\ -Visualizacion\ de\ pacientes\ asignados\ a\ cada\ enfermero/tecnico\ para\r\n\ pruebas\ diagnosticas\ y\ vacunaciones\r\n\ \r\n\ -Gestion\ de\ la\ programacion\ de\ pruebas\ serologicas\ tras\ los\ \r\n\ \ confinamientos.\r\n\ \ \r\n\ -Actualizacion\ del\ stock\ de\ vacunas.\r\n\ \r\n\ -Visualizacion\ de\ la\ planificacion\ tentativa\ de\ vacunas,\ a\ partir\ de\r\n\ \ los\ pacientes\ registrados\ en\ un\ momento\ determinado\r\n\ \r\n\ \r\n\ \r\n
+comment1.params=DNI\ c
+comment1.target=Administrador(int,\ Clinica)
+comment2.params=c\ DNI\ nombre\ apellido1\ apellido2\ edad
+comment2.target=Administrador(Clinica,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.params=x
+comment3.target=void\ aceptar_Tratamiento(Tratamiento)
+comment4.params=
+comment4.target=boolean\ planSemanal_espacioLibre()
+comment5.params=x
+comment5.target=boolean\ planSemanal_espacioLibre(int)
+comment6.params=x
+comment6.target=void\ add_Tratamiento(Tratamiento)
+numComments=7

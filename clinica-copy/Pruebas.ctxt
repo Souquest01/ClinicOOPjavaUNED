@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Pruebas
+comment0.text=\r\n\ Abstract\ class\ Pruebas\ -\ \r\n\ clase\ de\ la\ que\ derivan\ las\ pruebas,\ esta\ a\ su\ vez\r\n\ hereda\ de\ tratamientos\r\n\r\n\ consta\ de\ 3\ atributos\ mas\ con\ respecto\ a\ Tratamientos;\r\n\ resultado,\ procesado\ y\ ejecutado.\ Respectivamente\ muestran\r\n\ si\ ha\ dado\ un\ resultado\ positivo\ o\ negativo,\ si\ ha\ sido\ procesado\ por\ el\r\n\ tecnico\ y\ ejecutado\ por\ el\ enfermero,\ por\ lo\ tanto\ el\ resultado\r\n\ seria\ el\ ultimo\ atributo\ en\ asignarse\ y\ solo\ tendria\ valor\ si\r\n\ los\ otros\ dos\ son\ true.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=Pruebas()
+comment2.params=
+comment2.target=int\ get_lapsoDias()
+comment2.text=\r\n\ metodo\ abstracto\ para\ implementar\ por\ las\ clases\ hijas\r\n\ @return\ numero\ de\ dias\ entre\ pruebas\r\n
+comment3.params=
+comment3.target=boolean\ get_resultado()
+comment3.text=\r\n\ accesor\ resultado\r\n\ @param\ resultado\r\n
+comment4.params=resultado
+comment4.target=void\ set_resultado(boolean)
+comment4.text=\r\n\ mutador\ resultado\ y\ procesado.\r\n\ @param\ resultado\r\n
+comment5.params=
+comment5.target=boolean\ get_procesado()
+comment5.text=\r\n\ accesor\ procesado\r\n\ @return\ procesado\r\n
+comment6.params=
+comment6.target=boolean\ get_ejecutado()
+comment6.text=\r\n\ accesor\ ejecutado\r\n\ @return\ ejecutado\r\n
+comment7.params=enfermero
+comment7.target=void\ hacer_prueba(Enfermero)
+comment7.text=\r\n\ mutador\ de\ ejecutado.\ Este\ es\ el\ metodo\ que\ debe\ usarse\r\n\ para\ cambiar\ el\ estado\ de\ una\ prueba,\ puesto\ que\ es\ el\ enfermero\ el\r\n\ que\ tiene\ que\ declarar\ que\ se\ ha\ ejecutado\ la\ prueba\r\n\ @param\ enfermero\ que\ ejecuta\ la\ prueba\r\n
+comment8.params=tecnico
+comment8.target=void\ analizar_prueba(Tecnico)
+comment8.text=\r\n\ mutador\ de\ resultado,\ la\ contraparte\ del\ metodo\ hacer_prueba\ para\ el\ tecnico.\r\n\ el\ resultado\ deberia\ de\ aplicarse\ con\ este\ metodo.\r\n\ @param\ tecnico\ que\ realiza\ la\ prueba.\r\n
+numComments=9

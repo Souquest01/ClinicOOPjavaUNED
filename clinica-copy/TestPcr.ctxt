@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestPcr
+comment0.text=\r\n\ Esta\ clase\ representa\ a\ un\ test\ PCR,\ impone\ un\ limite\ en\r\n\ los\ dias\ entre\ pruebas\ pero\ no\ tiene\ nada\ mas\ especial\ con\ respecto\r\n\ a\ otra\ prueba\ cualquiera\ de\ analisis\ de\ presencia\ viral\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=TestPcr()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TestPcr\r\n
+comment2.params=
+comment2.target=int\ get_lapsoDias()
+comment2.text=\r\n\ implementa\ el\ metodo\ abstracto\ de\ la\ clase\ padre.\r\n\ @return\ lapsoDias\r\n
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=JJ
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ JJ\ here.\r\n\r\n\ @author\ (Francisco\ Sanchez)\r\n\ @version\ (0.1)\r\n
+comment1.params=
+comment1.target=JJ()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ JJ\r\n
+comment2.params=
+comment2.target=boolean\ usar()
+numComments=3
