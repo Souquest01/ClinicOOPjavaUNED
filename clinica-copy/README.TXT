@@ -1,15 +1,17 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+
 
 PROJECT TITLE: clinica
 PURPOSE OF PROJECT: pec asignatura poo
 VERSION or DATE: 0.1
-HOW TO START THIS PROJECT: crear objeto clinica, iniciar
+HOW TO START THIS PROJECT: crear objeto clinica, iniciar (blueJ) , (Iniciar Main en IDE)
 AUTHORS: Francico Sanchez
 USER INSTRUCTIONS: 
+
+Programa creado con la aplicacion BlueJ la cual muestra la dependencia entre clases y
+permite una manipulacion directa de los objetos, se ha anhadido una clase main
+ex profeso para ser inicializada en un IDE aun cuando no era el objetivo de la practica.
+En esta clase Main se encuentra una variable de la clase Clinica con su constructor y
+se procede a ejecutar su metodo principal iniciar() el cual es la base del programa en si.
 
 Esta version del programa es una version para desarrolladores,
 tiene habilitadas funciones que no deben estar presentes en la version
